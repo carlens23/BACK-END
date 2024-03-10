@@ -1,0 +1,70 @@
+Certamente! Vamos criar três arquivos para organizar as classes e a aplicação:
+
+**conta.py**:
+
+```python
+class Conta:
+    def __init__(self, titular, saldo=0):
+        self.titular = titular
+        self.saldo = saldo
+
+    def deposito(self, valor):
+        self.saldo += valor
+
+    def saque(self, valor):
+        if valor <= self.saldo:
+            self.saldo -= valor
+        else:
+            print("Saldo insuficiente.")
+
+    def extrato(self):
+        print(f"Titular: {self.titular}, Saldo: {self.saldo}")
+```
+
+**banco.py**:
+
+```python
+from conta import Conta
+
+class Banco:
+    def __init__(self, nome, codigo):
+        self.__nome = nome
+        self.__codigo = codigo
+        self.__contas = []
+
+    def cria_conta(self, titular, saldo=0):
+        nova_conta = Conta(titular, saldo)
+        self.__contas.append(nova_conta)
+        return nova_conta
+
+    def lista_contas(self):
+        for i, conta in enumerate(self.__contas, start=1):
+            print(f"Conta {i}:")
+            conta.extrato()
+            print("-------------------------")
+```
+
+**main.py**:
+
+```python
+from banco import Banco
+
+# Instanciando o banco
+meu_banco = Banco(nome="Banco XYZ", codigo="123")
+
+# Criando contas
+conta1 = meu_banco.cria_conta("João")
+conta2 = meu_banco.cria_conta("Maria", saldo=1000)
+
+# Listando contas
+print("Lista de Contas:")
+meu_banco.lista_contas()
+```
+
+Neste exemplo, temos:
+
+- **conta.py**: Contém a classe `Conta` com os métodos relacionados à conta.
+- **banco.py**: Contém a classe `Banco` com os métodos `cria_conta` para criar novas contas e `lista_contas` para listar as contas existentes. Os atributos `nome` e `codigo` são privados (usando `__`) para garantir encapsulamento.
+- **main.py**: Contém o código principal que instancia o banco, cria algumas contas e lista todas as contas.
+
+Lembre-se de organizar os arquivos no mesmo diretório para que a importação funcione corretamente.
