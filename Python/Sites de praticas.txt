@@ -1,0 +1,31 @@
+Claro! Aqui estão algumas recomendações de práticas em sites específicos para aprimorar suas habilidades com as bibliotecas Pandas, Selenium, Regex e Requests:
+
+### Pandas:
+1. **Kaggle:** O Kaggle oferece uma ampla variedade de conjuntos de dados para análise, competições de ciência de dados e kernels (notebooks) compartilhados por outros usuários. Você pode participar de competições, explorar conjuntos de dados e aprender com outros projetos.
+   - Site: [Kaggle](https://www.kaggle.com/)
+
+2. **DataCamp:** A plataforma DataCamp oferece cursos interativos sobre Python e Pandas, com exercícios práticos e projetos de análise de dados para praticar suas habilidades.
+   - Site: [DataCamp](https://www.datacamp.com/)
+
+### Selenium:
+1. **Selenium Easy:** Este site fornece tutoriais e exemplos interativos para aprender Selenium WebDriver, com exercícios práticos para escrever scripts de automação de testes.
+   - Site: [Selenium Easy](https://www.seleniumeasy.com/)
+
+2. **HackerRank:** A seção de prática do HackerRank inclui desafios de programação para várias habilidades, incluindo automação web com Selenium. Você pode resolver problemas específicos de automação web.
+   - Site: [HackerRank](https://www.hackerrank.com/)
+
+### Regex:
+1. **RegexOne:** Este site oferece tutoriais interativos e exercícios práticos para aprender expressões regulares passo a passo. É ótimo para iniciantes e oferece uma maneira fácil de praticar.
+   - Site: [RegexOne](https://regexone.com/)
+
+2. **Regex101:** O Regex101 é um playground online onde você pode testar e experimentar expressões regulares em tempo real, com uma área de teste e explicações detalhadas para cada padrão.
+   - Site: [Regex101](https://regex101.com/)
+
+### Requests:
+1. **GitHub API:** A API do GitHub oferece acesso a uma variedade de recursos e dados, como informações sobre usuários, repositórios e problemas. Você pode praticar fazer solicitações HTTP com a biblioteca Requests para acessar esses dados.
+   - Site: [GitHub API](https://docs.github.com/en/rest)
+
+2. **OpenWeatherMap API:** A API do OpenWeatherMap fornece dados meteorológicos em tempo real de diferentes locais ao redor do mundo. Você pode praticar fazer solicitações HTTP para recuperar dados de previsão do tempo.
+   - Site: [OpenWeatherMap API](https://openweathermap.org/api)
+
+Esses sites oferecem uma variedade de recursos e exercícios práticos para praticar e aprimorar suas habilidades com Pandas, Selenium, Regex e Requests. Lembre-se de praticar regularmente e desafiar-se com projetos e exercícios mais avançados para melhorar suas habilidades.

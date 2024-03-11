@@ -1,0 +1,19 @@
+### Pandas:
+1. **Análise de Dados Financeiros:** Utilize o Pandas para carregar um grande conjunto de dados financeiros (por exemplo, de uma bolsa de valores) e realize análises como retorno médio, volatilidade, correlação entre diferentes ações, e visualize os resultados de maneira clara e concisa.
+
+2. **Limpeza e Transformação de Dados:** Pegue um conjunto de dados sujos e mal formatados e use o Pandas para limpar e transformá-los em um formato utilizável. Isso pode incluir lidar com valores ausentes, formatos de datas inconsistentes, combinação de dados de várias fontes, etc.
+
+### Regex:
+1. **Extração de Dados de Texto:** Desenvolva uma expressão regular complexa para extrair informações específicas de um texto grande e variável, como números de telefone, endereços de e-mail, datas, URLs, etc.
+
+2. **Validação de Formulários:** Crie um formulário de registro com campos como e-mail, senha, número de telefone, etc., e use expressões regulares para validar os dados inseridos pelo usuário, garantindo que sigam os padrões desejados.
+
+### Requests:
+1. **Web Scraping Avançado:** Use a biblioteca Requests para realizar web scraping em um site complexo que utiliza autenticação, sessões, cookies e AJAX para carregar dados dinamicamente. Extraia informações específicas de interesse e salve-as em um formato estruturado.
+
+2. **API de Terceiros:** Integre-se a uma API de terceiros usando a biblioteca Requests para obter dados em tempo real, como previsão do tempo, cotações de moeda, dados de mídia social, etc. Manipule e visualize esses dados de maneira significativa.
+
+### Selenium:
+1. **Testes de Interface de Usuário (UI):** Desenvolva casos de teste automatizados usando o Selenium para interagir com a interface de usuário de um aplicativo da web complexo. Teste a funcionalidade do aplicativo, como registro de usuário, carrinho de compras, fluxo de checkout, etc.
+
+2. **Automatização de Tarefas Web:** Crie um script utilizando o Selenium para automatizar uma tarefa repetitiva em um site, como preencher formulários, fazer scraping de dados, interagir com elementos da página, etc. Isso pode ser útil para processos de trabalho, SEO, entre outros.

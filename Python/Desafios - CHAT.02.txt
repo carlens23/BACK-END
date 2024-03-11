@@ -1,0 +1,25 @@
+1. **Análise de Dados de um Website:**
+   - Use o Selenium para navegar por um site que exibe dados tabulares.
+   - Utilize o Requests para fazer o download de páginas HTML contendo esses dados.
+   - Use Regex para extrair os dados relevantes das páginas HTML.
+   - Carregue os dados extraídos em um DataFrame do Pandas para análise adicional, como visualizações ou cálculos estatísticos.
+
+2. **Web Scraping e Análise de Dados Financeiros:**
+   - Utilize o Selenium para navegar em sites que fornecem informações financeiras, como Yahoo Finance ou Google Finance.
+   - Use o Requests para baixar páginas HTML de ações específicas ou índices financeiros.
+   - Utilize Regex para extrair métricas financeiras relevantes, como preço das ações, P/E ratio, volume de negociação, etc.
+   - Armazene os dados extraídos em um DataFrame do Pandas e conduza análises financeiras, como cálculos de retornos, correlações entre diferentes ações, etc.
+
+3. **Extração e Análise de Dados de Mídias Sociais:**
+   - Utilize o Selenium para automatizar interações em uma plataforma de mídia social, como login, navegação em perfis e coleta de dados.
+   - Use o Requests para fazer solicitações à API da plataforma para obter dados adicionais, como postagens de usuários ou estatísticas de engajamento.
+   - Use Regex para limpar e extrair informações relevantes dos dados obtidos, como contagem de curtidas, comentários, etc.
+   - Carregue os dados extraídos em um DataFrame do Pandas para análise e visualização, como tendências de postagens, análise de sentimentos, etc.
+
+4. **Web Scraping e Análise de Dados de Imóveis:**
+   - Utilize o Selenium para navegar em sites de listagens de imóveis e extrair informações sobre preços, localização, tamanho, etc.
+   - Use o Requests para fazer o download de páginas HTML contendo detalhes de imóveis.
+   - Utilize Regex para extrair informações específicas dos detalhes dos imóveis, como preço, número de quartos, localização, etc.
+   - Armazene os dados extraídos em um DataFrame do Pandas para análises, como média de preços por região, correlação entre preço e número de quartos, etc.
+
+Esses desafios exigirão um entendimento profundo não apenas das bibliotecas individualmente, mas também de como integrá-las efetivamente para resolver problemas do mundo real. Experimente abordar esses desafios em etapas incrementais, resolvendo primeiro cada parte separadamente e depois combinando-as para alcançar a solução final.
